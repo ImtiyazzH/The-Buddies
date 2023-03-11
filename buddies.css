@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: black;
+    position: sticky;
+}
+
+#header {
+    justify-content: center;
+    margin: 0px 15px;
+    padding: 5px;
+}
+
+.h-primary {
+    color: darkolivegreen;
+    padding: 5px;
+    text-align: center;
+    font-size: 2.6rem;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.h-secondary {
+    color: darkolivegreen;
+    text-decoration: underline;
+    padding-left: 15px;
+    padding-top: 1px;
+    text-align: center;
+    font-size: 2.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#navbar {
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#navbar ul li {
+    list-style: none;
+    margin: 5px;
+    padding: 2px 20px;
+}
+
+#navbar ul li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: aquamarine;
+}
+
+#navbar ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    color: lightpink;
+}
+
+#form {
+    background-image: url("we7.jpg");
+    background-repeat: no-repeat;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#form h1 {
+    background-color: white;
+    width: 10%;
+    text-align: center;
+    color: darkslateblue;
+    border-bottom: 2px solid purple;
+    margin: 15px;
+    margin-top: 117px;
+}
+
+.filling {
+    width: 20%;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    background: transparent;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.filling:hover {
+    border: 2px solid grey;
+    background-color: black;
+    color: beige;
+    border-radius: 5px;
+}
+
+#button {
+    width: 10%;
+    background-color: black;
+    color: white;
+}
+
+#candidates{
+    background-color: lightcoral;
+}
+
+.members-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 8px;
+    padding: 15px;
+    background-image: url("friends2.j");
+
+}
+
+.members-1 div {
+    color: black;
+    border: 2px solid darkolivegreen;
+    text-align: center;
+    margin: 7px;
+    margin-bottom: 1px;
+    padding: 5px;
+
+}
+
+.members-1 img {
+    height: 150px;
+    padding: 15px;
+    width: 150px;
+    border-radius: 70px;
+}
+
+.members-2 {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.members-2 div {
+    color: black;
+    border: 2px solid darkolivegreen;
+    text-align: center;
+    margin: 7px;
+    margin-top: -12px;
+    padding: 5px;
+}
+
+.members-2 img {
+    height: 150px;
+    width: 150px;
+    border-radius: 70px;
+}
+
+#keymoments{
+    display: flex;
+    margin: 15px;
+    padding: 5px;
+    border: 2px solid black;
+    align-items: center;
+    flex-direction: column;
+}
+
+.videos {
+    /* background-color: rgb(29, 5, 5); */
+    margin: 5px;
+    padding: 7px;
+    border : 2px solid yellow;
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.videos h1{
+    margin: 7px;
+    padding: 1.5px;
+    color: darkgoldenrod;
+    align-items: center; 
+    border-bottom: 2px solid goldenrod;
+}
+.videos p{
+    width: 70%;
+    margin: 4px;
+    padding: 2px;
+    color: darkslategrey;
+    align-items: center; 
+}
+
+
+
+
+
+/* #starting h2{
+    text-align: center;
+}
+.flexbox{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.p-primary{
+    width: 30%;
+    color: lightseagreen;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.photo-primary{
+    padding:15px;
+    width: 30%;
+} */
